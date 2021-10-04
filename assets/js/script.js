@@ -1,4 +1,4 @@
-//Open weather API key
+//Open weather API 
 let myAPIId = "ec1382591f2eafe4112be140af974ad6"
 
 function createCityList(citySearchList) {
@@ -52,9 +52,9 @@ function showWeather(city, citySearchList) {
       $("#current-icon").empty();
       $("#current-icon").append(weatherIcon);
 
-      $("#temp").text("Temperature: " + response.main.temp + " °F");
-      $("#humidity").text("Humidity: " + response.main.humidity + "%");
-      $("#wind").text("Wind Speed: " + response.wind.speed + " MPH");
+      $("#current-temp").text("Temperature: " + response.main.temp + " °F");
+      $("#current-humidity").text("Humidity: " + response.main.humidity + "%");
+      $("#current-wind").text("Wind Speed: " + response.wind.speed + " MPH");
 
       let lat = response.coord.lat;
       let lon = response.coord.long;
