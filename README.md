@@ -1,7 +1,18 @@
-# Weather-Dashboard-Challenge
+# weather-dashboard
 
 ## Description 
 Third-party APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. Developers are often tasked with retrieving data from another application's API and using it in the context of their own. The challenge was to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
+
+## Table of Contents
+* [User Story](#userStory)
+* [Acceptance Criteria](#acceptanceCriteria)
+* [Installation](*installation)
+* [Usage](#usage)
+* [Website Links](#websiteLinks)
+* [Screengrab](#screengrab)
+* [Languages](#languages)
+* [License](#license)
+* [Questions](questions)
 
 ### User Story
 ```
@@ -25,7 +36,25 @@ WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 ```
 
-### Deployed Website
+### Installation
+No installation required - click the link below to view application.
 
+### Usage
+The application allows the user to search for weather information for specific city.  It will display the daily weather as well as a five-day forecast.
 
-### Screenshot
+### Website Link
+[Click Here to View Application]()
+
+### Screengrab
+![screenshot]()
+
+### Languages
+- HTML
+- CSS
+- JavaScript
+
+### License
+MIT
+
+### Questions
+If you have any questions about this application, please contact me at brynne.eastman@gmail.com. You can also view more applications at https://github.com/brynne-eastman.
